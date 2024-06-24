@@ -44,7 +44,7 @@ public:
     //     }
     int mid=(low+high)/2;
     if(idx<=mid){
-        update(i*2+1,low,mid-1,val,idx);
+        update(i*2+1,low,mid,val,idx);
     }
     else 
         update(i*2+2,mid+1,high,val,idx);
